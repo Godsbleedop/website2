@@ -9,11 +9,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/My project(2).png",
+        img: "My project(2).png",
       },
       {
         code: "darkblue",
-        img: "./img/My project(2).png",
+        img: "my project(2).png",
       },
     ],
   },
@@ -24,11 +24,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/Half-Life-2-PNG-Transparent.png",
+        img: "Half-Life-2-PNG-Transparent.png",
       },
       {
         code: "green",
-        img: "./img/Half-Life-2-PNG-Transparent.png" ,
+        img: "Half-Life-2-PNG-Transparent.png" ,
       },
     ],
   },
@@ -39,11 +39,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/580b57fcd9996e24bc43c319.png",
+        img: "580b57fcd9996e24bc43c319.png",
       },
       {
         code: "green",
-        img: "./img/580b57fcd9996e24bc43c319.png",
+        img: "580b57fcd9996e24bc43c319.png",
       },
     ],
   },
@@ -54,11 +54,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/minecraft-png-13356.png",
+        img: "minecraft-png-13356.png",
       },
       {
         code: "lightgray",
-        img: "./img/minecraft-png-13356.png",
+        img: "minecraft-png-13356.png",
       },
     ],
   },
@@ -69,11 +69,11 @@ const products = [
     colors: [
       {
         code: "gray",
-        img: "./img/call-of-duty-png-43289.png",
+        img: "call-of-duty-png-43289.png",
       },
       {
         code: "black",
-        img: "./img/call-of-duty-png-43289.png",
+        img: "call-of-duty-png-43289.png",
       },
     ],
   },
