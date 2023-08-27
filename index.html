@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,intial-scale=1.0">
+  <title>ZENEX LOGIN</title>
+  <p style="background-image: url(https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg);"> </p>
+  <style>
+ 	 * {
+ 	   font-family: 'Poppins', sans-serif;
+ 	   margin: 0;
+ 	   padding: 0;
+ 	   box-sizing: border-box;
+  	   outline: none;
+  	   border: none;
+   	   text-decoration: none;
+  	   box-sizing:border-box;
+  	   border-radius:8px; 
+           }
+	.form-container {
+  	   height:100vh;
+  	   width:100%;
+  	   background-image:url(../aprtmnt.png);
+  	   background-size:cover;
+  	   background-repeat: no-repeat;
+  	   background-position: center;
+  	   opacity: 1.2;
+  	   min-height: 100vh;
+  	   display:flex;
+  	   align-items: center;
+       	   justify-content: center;
+   	   padding:10px;
+   	   padding-bottom:80px;
+	   }
+	.form-container form {
+    	   padding:20px;
+    	   border-radius: 10px;
+           box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   	   background: 	#008080;
+           text-align:left;
+           width:500px;
+           opacity: 1;
+	   }
+	.form-container form input,
+	.form-container form select {
+ 	   width:100%;
+  	  padding:10px 10px;
+  	  font-size:17px;
+ 	    margin:10px 2;
+ 	   background: #df9999;
+  	  border-radius:50px;
+}
+        .bgcolor{
+          background-color:white;
+          float:left;
+          font-size:25px;
+          width:100%;
+            }
+       ul li{
+             float:right;
+             font-size:23px;
+             padding:15px;
+             color:white;
+          }
+        .img2{
+	     float: left;
+             }
+        input[type=text],input[type=password], input[type=number] {
+            width:100%;
+              padding:15px;
+            margin:15px 0 22px 0;
+             display:inline-block;
+               border:none;
+              background-color:#f1f1f1;
+             }
+           input[type=text]:focus,input[type=password]:focus{
+              background-color:#ddd;
+              outline:none;
+            }
+         .registration {
+		background-color:rgb(255, 0, 43);
+ 		 color:red;
+ 		 padding: 16px 20px;
+		 margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		
+                font-size:20px;
+		}
+	.registerbtn:hover {
+	background-color:teal;
+		opacity: 1;
+                color:black;		} 
+          body{
+              background-color:RGB(214, 207, 158); 
+              } 
+        mark{
+              color:red;
+              background-color:rgb(29, 1, 1);
+           }
+          
+  </style>
+</head>
+<body>
+ <div class="bgcolor">
+    <img src="./img/logo-no-background.png" height="150px" width="150px" >
+    <h1 style="text-align:center;">ZENEX</h1>
+  <ul type="none" display="inline-block">
+    	<li>Saved</li>
+     <li>Help</li>
+      <li>About</li>
+     <li>Home</li>		 
+  </ul>
+ </div>	
+ <div class="form-container">
+  <form >
+      <h1><center>Sign up today</center></h1>
+      <label for="Name"><b>Name</b></label>
+      <input type="text" placeholder="Enter your name" name="name" required>
+      <label for="phone-number"><b>Enter phone number</b></label>
+      <input type="number" placeholder="Enter your phone number" name="phone-number" required>	
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email"  required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter password" name="psw"required>
+      <label for="psw-repeat"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+   <button type="submit" class="registration registerbtn"><a href="index.html">Sign Up now</a></button> 
+<p><center>already have an account?<mark>Login now</mark></center></p>  
+  </form>
+</div>
+</body>
+</html>
